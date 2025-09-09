@@ -5,6 +5,7 @@
   align-items: start;
 
   width: 760px;
+  min-width: 760px;
 }
 
 .tier-chart-header {

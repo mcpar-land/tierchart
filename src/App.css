@@ -39,10 +39,8 @@ html {
 
 body {
   margin: 0;
-  padding: 0 2rem;
+  padding: 0;
   padding-bottom: 2rem;
-  width: 100%;
-  font-family: "DejaVu Serif", serif;
 }
 
 #root {

@@ -1,3 +1,4 @@
+import { Head } from "vite-react-ssg";
 import gameData from "../games";
 
 import "./AllGames.css";
@@ -7,6 +8,9 @@ function AllGames() {
 
   return (
     <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <h1>Tiercharts</h1>
       {sortedGameData.map((g, i) => (
         <div key={i}>

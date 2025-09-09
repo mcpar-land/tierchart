@@ -47,6 +47,7 @@ const TierChart = ({
   return (
     <div className="tier-chart">
       <Head>
+        <meta name="viewport" content="width=760, initial-scale=1.0" />
         <title>Tiercharts - {name}</title>
       </Head>
       <div className="tier-chart-header">
