@@ -1,24 +1,26 @@
 import "./App.css";
 
-import { useState } from "react";
+import type { RouteRecord } from "vite-react-ssg";
+import AllGames from "./pages/AllGames";
 import TierChart from "./components/TierChart";
+import gameData from "./games";
 
-import tekkenGameData from "./assets/tekken.json";
-
-function App() {
-  const [labelN, setLabelN] = useState("Difficult");
-  return (
-    <>
-      <input value={labelN} onChange={(e) => setLabelN(e.target.value)} />
+export const routes: RouteRecord[] = [
+  {
+    path: "/",
+    element: <AllGames />,
+    entry: "src/pages/AllGames.tsx",
+  },
+  ...gameData.map((game) => ({
+    path: "/" + game.slug,
+    element: (
       <TierChart
-        labelN={labelN}
-        labelS={"Easy"}
-        labelE={"Well-rounded"}
-        labelW={"Has flaws"}
-        gameData={tekkenGameData}
+        labelN={"Difficult"}
+        labelS={"Simple"}
+        labelE={"Has Flaws"}
+        labelW={"Well-Rounded"}
+        gameData={game}
       />
-    </>
-  );
-}
-
-export default App;
+    ),
+  })),
+];

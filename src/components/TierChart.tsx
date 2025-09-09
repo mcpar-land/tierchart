@@ -1,18 +1,7 @@
 import Draggable from "react-draggable";
 import "./TierChart.css";
 import { useRef } from "react";
-
-type Character = {
-  name: string;
-  imgSrc: string;
-};
-
-type GameData = {
-  name: string;
-  portraitWidth: number;
-  portraitHeight: number;
-  characters: Character[];
-};
+import type { Character, GameData } from "../types";
 
 type TierChartProps = {
   labelN: string;
@@ -36,7 +25,6 @@ const TierChart = ({
   const fontSize = "2em";
   const nSmallLines = 20;
   const smallLineStroke = "lightgray";
-  console.log(JSON.stringify(characters));
   return (
     <div className="tier-chart">
       <svg className="tier-chart-grid" width={width + ""} height={height + ""}>
