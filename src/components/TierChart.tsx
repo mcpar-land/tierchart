@@ -7,16 +7,23 @@ type Character = {
   imgSrc: string;
 };
 
+type GameData = {
+  name: string;
+  portraitWidth: number;
+  portraitHeight: number;
+  characters: Character[];
+};
+
 type TierChartProps = {
   labelN: string;
   labelS: string;
   labelE: string;
   labelW: string;
-  characters: Character[];
+  gameData: GameData;
 };
 
 const TierChart = ({
-  characters,
+  gameData: { characters, portraitHeight, portraitWidth },
   labelN,
   labelS,
   labelE,
@@ -29,6 +36,7 @@ const TierChart = ({
   const fontSize = "2em";
   const nSmallLines = 20;
   const smallLineStroke = "lightgray";
+  console.log(JSON.stringify(characters));
   return (
     <div className="tier-chart">
       <svg className="tier-chart-grid" width={width + ""} height={height + ""}>
@@ -132,20 +140,39 @@ const TierChart = ({
       </svg>
       <div className="character-holder">
         {characters.map((c, i) => (
-          <DraggableBox character={c} key={i} />
+          <DraggableBox
+            character={c}
+            key={i}
+            portraitWidth={portraitWidth}
+            portraitHeight={portraitHeight}
+          />
         ))}
       </div>
     </div>
   );
 };
 
-const DraggableBox = ({ character }: { character: Character }) => {
+const DraggableBox = ({
+  character,
+  portraitWidth,
+  portraitHeight,
+}: {
+  character: Character;
+  portraitWidth: number;
+  portraitHeight: number;
+}) => {
   const nodeRef = useRef(null);
   return (
     <Draggable nodeRef={nodeRef} bounds=".tier-chart">
-      <div ref={nodeRef} className="draggable-box">
-        {character.name}
-      </div>
+      <img
+        src={character.imgSrc}
+        draggable={false}
+        ref={nodeRef}
+        title={character.name}
+        className="draggable-box"
+        width={portraitWidth}
+        height={portraitHeight}
+      />
     </Draggable>
   );
 };

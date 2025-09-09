@@ -1,0 +1,163 @@
+{
+  "name": "Tekken 8",
+  "portraitWidth": 50,
+  "portraitHeight": 75,
+  "characters": [
+    {
+      "name": "Alisa",
+      "imgSrc": "/portraits/tekken8/alisa.png"
+    },
+    {
+      "name": "Anna",
+      "imgSrc": "/portraits/tekken8/anna.png"
+    },
+    {
+      "name": "Armor King",
+      "imgSrc": "/portraits/tekken8/armor_king.png"
+    },
+    {
+      "name": "Asuka",
+      "imgSrc": "/portraits/tekken8/asuka.png"
+    },
+    {
+      "name": "Azucena",
+      "imgSrc": "/portraits/tekken8/azucena.png"
+    },
+    {
+      "name": "Bryan",
+      "imgSrc": "/portraits/tekken8/bryan.png"
+    },
+    {
+      "name": "Claudio",
+      "imgSrc": "/portraits/tekken8/claudio.png"
+    },
+    {
+      "name": "Clive",
+      "imgSrc": "/portraits/tekken8/clive.png"
+    },
+    {
+      "name": "Devil Jin",
+      "imgSrc": "/portraits/tekken8/devil_jin.png"
+    },
+    {
+      "name": "Dragunov",
+      "imgSrc": "/portraits/tekken8/dragunov.png"
+    },
+    {
+      "name": "Eddy",
+      "imgSrc": "/portraits/tekken8/eddy.png"
+    },
+    {
+      "name": "Fahkumram",
+      "imgSrc": "/portraits/tekken8/fahkumram.png"
+    },
+    {
+      "name": "Feng",
+      "imgSrc": "/portraits/tekken8/feng.png"
+    },
+    {
+      "name": "Heihachi",
+      "imgSrc": "/portraits/tekken8/heihachi.png"
+    },
+    {
+      "name": "Hwoarang",
+      "imgSrc": "/portraits/tekken8/hwoarang.png"
+    },
+    {
+      "name": "Jack-8",
+      "imgSrc": "/portraits/tekken8/jack_8.png"
+    },
+    {
+      "name": "Jin",
+      "imgSrc": "/portraits/tekken8/jin.png"
+    },
+    {
+      "name": "Jun",
+      "imgSrc": "/portraits/tekken8/jun.png"
+    },
+    {
+      "name": "Kazuya",
+      "imgSrc": "/portraits/tekken8/kazuya.png"
+    },
+    {
+      "name": "King",
+      "imgSrc": "/portraits/tekken8/king.png"
+    },
+    {
+      "name": "Kuma",
+      "imgSrc": "/portraits/tekken8/kuma.png"
+    },
+    {
+      "name": "Lars",
+      "imgSrc": "/portraits/tekken8/lars.png"
+    },
+    {
+      "name": "Law",
+      "imgSrc": "/portraits/tekken8/law.png"
+    },
+    {
+      "name": "Lee",
+      "imgSrc": "/portraits/tekken8/lee.png"
+    },
+    {
+      "name": "Leo",
+      "imgSrc": "/portraits/tekken8/leo.png"
+    },
+    {
+      "name": "Leroy",
+      "imgSrc": "/portraits/tekken8/leroy.png"
+    },
+    {
+      "name": "Lidia",
+      "imgSrc": "/portraits/tekken8/lidia.png"
+    },
+    {
+      "name": "Lili",
+      "imgSrc": "/portraits/tekken8/lili.png"
+    },
+    {
+      "name": "Nina",
+      "imgSrc": "/portraits/tekken8/nina.png"
+    },
+    {
+      "name": "Panda",
+      "imgSrc": "/portraits/tekken8/panda.png"
+    },
+    {
+      "name": "Paul",
+      "imgSrc": "/portraits/tekken8/paul.png"
+    },
+    {
+      "name": "Raven",
+      "imgSrc": "/portraits/tekken8/raven.png"
+    },
+    {
+      "name": "Reina",
+      "imgSrc": "/portraits/tekken8/reina.png"
+    },
+    {
+      "name": "Shaheen",
+      "imgSrc": "/portraits/tekken8/shaheen.png"
+    },
+    {
+      "name": "Steve",
+      "imgSrc": "/portraits/tekken8/steve.png"
+    },
+    {
+      "name": "Victor",
+      "imgSrc": "/portraits/tekken8/victor.png"
+    },
+    {
+      "name": "Xiaoyu",
+      "imgSrc": "/portraits/tekken8/xiaoyu.png"
+    },
+    {
+      "name": "Yoshimitsu",
+      "imgSrc": "/portraits/tekken8/yoshimitsu.png"
+    },
+    {
+      "name": "Zafina",
+      "imgSrc": "/portraits/tekken8/zafina.png"
+    }
+  ]
+}
