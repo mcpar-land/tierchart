@@ -1,0 +1,39 @@
+.tier-chart {
+  background: pink;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 760px;
+}
+
+.tier-chart-grid {
+  background: white;
+  border: 1px solid black;
+  width: 760px;
+  height: 680px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.character-holder {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.draggable-box {
+  user-select: none;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background: pink;
+}
+
+.chart-label {
+  font-family: monospace;
+}
