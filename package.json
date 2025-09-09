@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite-react-ssg dev",
-    "build": "tsc -b && vite-react-ssg build",
+    "build": "vite-react-ssg build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check": "tsc -b"
   },
   "dependencies": {
     "react": "^19.1.1",

@@ -1,23 +1,20 @@
 import Draggable from "react-draggable";
 import "./TierChart.css";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import type { Character, GameData } from "../types";
 
 type TierChartProps = {
-  labelN: string;
-  labelS: string;
-  labelE: string;
-  labelW: string;
   gameData: GameData;
 };
 
 const TierChart = ({
   gameData: { characters, portraitHeight, portraitWidth },
-  labelN,
-  labelS,
-  labelE,
-  labelW,
 }: TierChartProps) => {
+  const [labelN, inputN] = useInputField("Top tier");
+  const [labelS, inputS] = useInputField("Low tier");
+  const [labelE, inputE] = useInputField("Well-rounded");
+  const [labelW, inputW] = useInputField("Has flaws");
+
   const width = 760;
   const height = 680;
   const padding = 15;
@@ -27,6 +24,9 @@ const TierChart = ({
   const smallLineStroke = "lightgray";
   return (
     <div className="tier-chart">
+      <div>
+        <a href="/">Back to game list</a>
+      </div>
       <svg className="tier-chart-grid" width={width + ""} height={height + ""}>
         <defs>
           <marker
@@ -136,8 +136,22 @@ const TierChart = ({
           />
         ))}
       </div>
+      <div className="axis-labels">
+        {inputN}
+        {inputS}
+        {inputE}
+        {inputW}
+      </div>
     </div>
   );
+};
+
+const useInputField = (defaultValue: string) => {
+  const [val, setVal] = useState(defaultValue);
+
+  const node = <input value={val} onChange={(e) => setVal(e.target.value)} />;
+
+  return [val, node];
 };
 
 const DraggableBox = ({

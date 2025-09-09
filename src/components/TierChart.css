@@ -1,9 +1,9 @@
 .tier-chart {
-  background: pink;
   position: relative;
 
   display: flex;
   flex-direction: column;
+  align-items: start;
 
   width: 760px;
 }
@@ -25,6 +25,7 @@
   flex-wrap: wrap;
   height: 100%;
   flex-grow: 1;
+  background: darksalmon;
 }
 
 .draggable-box {

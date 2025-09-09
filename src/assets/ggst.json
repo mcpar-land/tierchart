@@ -1,0 +1,12 @@
+{
+  "name": "Guilty Gear Strive",
+  "slug": "ggst",
+  "portraitWidth": 75,
+  "portraitHeight": 75,
+  "characters": [
+    {
+      "name": "Happy Chaos",
+      "imgSrc": "/portraits/ggst/happy_chaos.png"
+    }
+  ]
+}

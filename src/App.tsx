@@ -13,14 +13,6 @@ export const routes: RouteRecord[] = [
   },
   ...gameData.map((game) => ({
     path: "/" + game.slug,
-    element: (
-      <TierChart
-        labelN={"Difficult"}
-        labelS={"Simple"}
-        labelE={"Has Flaws"}
-        labelW={"Well-Rounded"}
-        gameData={game}
-      />
-    ),
+    element: <TierChart gameData={game} />,
   })),
 ];
