@@ -7,7 +7,7 @@ function AllGames() {
 
   return (
     <>
-      <h1>Tierchart</h1>
+      <h1>Tiercharts</h1>
       {sortedGameData.map((g, i) => (
         <div key={i}>
           <a href={`/${g.slug}`}>{g.name}</a>
