@@ -151,9 +151,11 @@ const TierChart = ({
       </div>
       <div className="axis-labels">
         {inputN}
+        <div className="axis-labels-e-w">
+          {inputW}
+          {inputE}
+        </div>
         {inputS}
-        {inputE}
-        {inputW}
       </div>
     </div>
   );
