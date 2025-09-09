@@ -56,6 +56,11 @@
   font-family: "DejaVu Mono", monospace;
 }
 
+.download-btn {
+  font-family: "DejaVu Serif", serif;
+  font-size: 1.5em;
+}
+
 .axis-labels {
   width: 100%;
   display: flex;

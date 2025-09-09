@@ -1,23 +1,44 @@
 import Draggable from "react-draggable";
 import "./TierChart.css";
-import { useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import type { Character, GameData } from "../types";
 import { Head } from "vite-react-ssg";
+import { toPng } from "html-to-image";
 
 type TierChartProps = {
   gameData: GameData;
 };
 
 const TierChart = ({
-  gameData: { name, characters, portraitHeight, portraitWidth },
+  gameData: { name, slug, characters, portraitHeight, portraitWidth },
 }: TierChartProps) => {
   const [labelN, inputN] = useInputField("Top tier");
   const [labelS, inputS] = useInputField("Low tier");
   const [labelE, inputE] = useInputField("Well-rounded");
   const [labelW, inputW] = useInputField("Has flaws");
 
+  const tcRef = useRef<HTMLDivElement>(null);
+
   const width = 760;
   const height = 680;
+
+  const handleDownload = useCallback(() => {
+    if (tcRef.current === null) {
+      return;
+    }
+
+    toPng(tcRef.current, { cacheBust: true, width, height })
+      .then((dataUrl) => {
+        const link = document.createElement("a");
+        link.download = `tierchart_${slug}.png`;
+        link.href = dataUrl;
+        link.click();
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  }, [tcRef, name]);
+
   const padding = 15;
   const strokeWidth = 5;
   const fontSize = "1.5em";
@@ -34,7 +55,7 @@ const TierChart = ({
         </div>
         <div className="tier-chart-title">Tiercharts - {name}</div>
       </div>
-      <div className="tier-chart-drag-container">
+      <div className="tier-chart-drag-container" ref={tcRef}>
         <svg
           className="tier-chart-grid"
           width={width + ""}
@@ -150,6 +171,9 @@ const TierChart = ({
         </div>
       </div>
       <div className="axis-labels">
+        <button className="download-btn" onClick={handleDownload}>
+          Download
+        </button>
         {inputN}
         <div className="axis-labels-e-w">
           {inputW}
