@@ -13,6 +13,12 @@ function AllGames() {
           <a href={`/${g.slug}`}>{g.name}</a>
         </div>
       ))}
+      <div className="contributing">
+        Don't see your game here?{" "}
+        <a href="https://github.com/mcpar-land/tiercharts?tab=readme-ov-file#adding-a-game">
+          Contribute!
+        </a>
+      </div>
     </>
   );
 }

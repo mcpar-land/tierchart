@@ -3,3 +3,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+.contributing {
+  font-size: 0.75em;
+  padding-top: 2em;
+  color: gray;
+}
