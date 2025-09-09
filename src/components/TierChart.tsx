@@ -26,13 +26,13 @@ const TierChart = ({
   return (
     <div className="tier-chart">
       <Head>
-        <title>Tiercharts - {name}</title>
+        <title>Tierchart - {name}</title>
       </Head>
       <div className="tier-chart-header">
         <div>
           <a href="/">Back to game list</a>
         </div>
-        <div className="tier-chart-title">Tiercharts - {name}</div>
+        <div className="tier-chart-title">Tierchart - {name}</div>
       </div>
       <div className="tier-chart-drag-container">
         <svg
