@@ -63,7 +63,7 @@ const TierChart = ({
                 x2={(width / (nSmallLines + 1)) * i}
                 y2={height}
                 stroke={smallLineStroke}
-                stroke-width={1}
+                strokeWidth={1}
               />
             ))}
           {Array(nSmallLines + 1)
@@ -76,7 +76,7 @@ const TierChart = ({
                 x2={width}
                 y2={(height / (nSmallLines + 1)) * i}
                 stroke={smallLineStroke}
-                stroke-width={1}
+                strokeWidth={1}
               />
             ))}
           <line
@@ -85,9 +85,9 @@ const TierChart = ({
             x2={width / 2}
             y2={height - padding}
             stroke="black"
-            stroke-width={strokeWidth}
-            marker-start="url(#arrowhead)"
-            marker-end="url(#arrowhead)"
+            strokeWidth={strokeWidth}
+            markerStart="url(#arrowhead)"
+            markerEnd="url(#arrowhead)"
           />
           <line
             x1={padding}
@@ -95,17 +95,17 @@ const TierChart = ({
             x2={width - padding}
             y2={height / 2}
             stroke="black"
-            stroke-width={strokeWidth}
-            marker-start="url(#arrowhead)"
-            marker-end="url(#arrowhead)"
+            strokeWidth={strokeWidth}
+            markerStart="url(#arrowhead)"
+            markerEnd="url(#arrowhead)"
           />
           <text
             className="chart-label"
             x={width / 2 + strokeWidth}
             y={padding * 2}
             dy="1em"
-            text-anchor="start"
-            font-size={fontSize}
+            textAnchor="start"
+            fontSize={fontSize}
           >
             {labelN}
           </text>
@@ -113,8 +113,8 @@ const TierChart = ({
             className="chart-label"
             x={width / 2 - strokeWidth}
             y={height - padding * 2 - strokeWidth}
-            text-anchor="end"
-            font-size={fontSize}
+            textAnchor="end"
+            fontSize={fontSize}
           >
             {labelS}
           </text>
@@ -123,8 +123,8 @@ const TierChart = ({
             x={width - padding * 2}
             y={height / 2}
             dy="1em"
-            text-anchor="end"
-            font-size={fontSize}
+            textAnchor="end"
+            fontSize={fontSize}
           >
             {labelE}
           </text>
@@ -132,8 +132,8 @@ const TierChart = ({
             className="chart-label"
             x={padding * 2}
             y={height / 2 - strokeWidth}
-            text-anchor="start"
-            font-size={fontSize}
+            textAnchor="start"
+            fontSize={fontSize}
           >
             {labelW}
           </text>
