@@ -5,8 +5,132 @@
   "portraitHeight": 75,
   "characters": [
     {
+      "name": "A.B.A.",
+      "imgSrc": "/portraits/ggst/aba.png"
+    },
+    {
+      "name": "Anji",
+      "imgSrc": "/portraits/ggst/anji.png"
+    },
+    {
+      "name": "Asuka",
+      "imgSrc": "/portraits/ggst/asuka.png"
+    },
+    {
+      "name": "Axl",
+      "imgSrc": "/portraits/ggst/axl.png"
+    },
+    {
+      "name": "Baiken",
+      "imgSrc": "/portraits/ggst/baiken.png"
+    },
+    {
+      "name": "Bedman?",
+      "imgSrc": "/portraits/ggst/bedman.png"
+    },
+    {
+      "name": "Bridget",
+      "imgSrc": "/portraits/ggst/bridget.png"
+    },
+    {
+      "name": "Chipp",
+      "imgSrc": "/portraits/ggst/chipp.png"
+    },
+    {
+      "name": "Dizzy",
+      "imgSrc": "/portraits/ggst/dizzy.png"
+    },
+    {
+      "name": "Elphelt",
+      "imgSrc": "/portraits/ggst/elphelt.png"
+    },
+    {
+      "name": "Faust",
+      "imgSrc": "/portraits/ggst/faust.png"
+    },
+    {
+      "name": "Giovanna",
+      "imgSrc": "/portraits/ggst/giovanna.png"
+    },
+    {
+      "name": "Goldlewis",
+      "imgSrc": "/portraits/ggst/goldlewis.png"
+    },
+    {
       "name": "Happy Chaos",
-      "imgSrc": "/portraits/ggst/happy_chaos.png"
+      "imgSrc": "/portraits/ggst/happychaos.png"
+    },
+    {
+      "name": "I-No",
+      "imgSrc": "/portraits/ggst/ino.png"
+    },
+    {
+      "name": "Jack O",
+      "imgSrc": "/portraits/ggst/jacko.png"
+    },
+    {
+      "name": "Johnny",
+      "imgSrc": "/portraits/ggst/johnny.png"
+    },
+    {
+      "name": "Ky",
+      "imgSrc": "/portraits/ggst/ky.png"
+    },
+    {
+      "name": "Leo",
+      "imgSrc": "/portraits/ggst/leo.png"
+    },
+    {
+      "name": "Lucy",
+      "imgSrc": "/portraits/ggst/lucy.png"
+    },
+    {
+      "name": "May",
+      "imgSrc": "/portraits/ggst/may.png"
+    },
+    {
+      "name": "Millia",
+      "imgSrc": "/portraits/ggst/millia.png"
+    },
+    {
+      "name": "Nagoriyuki",
+      "imgSrc": "/portraits/ggst/nagoriyuki.png"
+    },
+    {
+      "name": "Potemkin",
+      "imgSrc": "/portraits/ggst/potemkin.png"
+    },
+    {
+      "name": "Ramlethal",
+      "imgSrc": "/portraits/ggst/ramlethal.png"
+    },
+    {
+      "name": "Sin",
+      "imgSrc": "/portraits/ggst/sin.png"
+    },
+    {
+      "name": "Slayer",
+      "imgSrc": "/portraits/ggst/slayer.png"
+    },
+    {
+      "name": "Sol",
+      "imgSrc": "/portraits/ggst/sol.png"
+    },
+    {
+      "name": "Testament",
+      "imgSrc": "/portraits/ggst/testament.png"
+    },
+    {
+      "name": "Unika",
+      "imgSrc": "/portraits/ggst/unika.png"
+    },
+    {
+      "name": "Venom",
+      "imgSrc": "/portraits/ggst/venom.png"
+    },
+    {
+      "name": "Zato",
+      "imgSrc": "/portraits/ggst/zato.png"
     }
   ]
 }
