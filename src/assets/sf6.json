@@ -1,0 +1,116 @@
+{
+  "name": "Street Fighter 6",
+  "slug": "sf6",
+  "portraitWidth": 56,
+  "portraitHeight": 56,
+  "characters": [
+    {
+      "name": "Aki",
+      "imgSrc": "/portraits/sf6/aki.png"
+    },
+    {
+      "name": "Akuma",
+      "imgSrc": "/portraits/sf6/akuma.png"
+    },
+    {
+      "name": "Blanka",
+      "imgSrc": "/portraits/sf6/blanka.png"
+    },
+    {
+      "name": "Cammy",
+      "imgSrc": "/portraits/sf6/cammy.png"
+    },
+    {
+      "name": "Chun Li",
+      "imgSrc": "/portraits/sf6/chunli.png"
+    },
+    {
+      "name": "Deejay",
+      "imgSrc": "/portraits/sf6/deejay.png"
+    },
+    {
+      "name": "Dhalsim",
+      "imgSrc": "/portraits/sf6/dhalsim.png"
+    },
+    {
+      "name": "Ed",
+      "imgSrc": "/portraits/sf6/ed.png"
+    },
+    {
+      "name": "E. Honda",
+      "imgSrc": "/portraits/sf6/ehonda.png"
+    },
+    {
+      "name": "Elena",
+      "imgSrc": "/portraits/sf6/elena.png"
+    },
+    {
+      "name": "Guile",
+      "imgSrc": "/portraits/sf6/guile.png"
+    },
+    {
+      "name": "Jamie",
+      "imgSrc": "/portraits/sf6/jamie.png"
+    },
+    {
+      "name": "JP",
+      "imgSrc": "/portraits/sf6/jp.png"
+    },
+    {
+      "name": "Juri",
+      "imgSrc": "/portraits/sf6/juri.png"
+    },
+    {
+      "name": "Ken",
+      "imgSrc": "/portraits/sf6/ken.png"
+    },
+    {
+      "name": "Kimberly",
+      "imgSrc": "/portraits/sf6/kimberly.png"
+    },
+    {
+      "name": "Lily",
+      "imgSrc": "/portraits/sf6/lily.png"
+    },
+    {
+      "name": "Luke",
+      "imgSrc": "/portraits/sf6/luke.png"
+    },
+    {
+      "name": "Mai",
+      "imgSrc": "/portraits/sf6/mai.png"
+    },
+    {
+      "name": "Manon",
+      "imgSrc": "/portraits/sf6/manon.png"
+    },
+    {
+      "name": "Marisa",
+      "imgSrc": "/portraits/sf6/marisa.png"
+    },
+    {
+      "name": "M. Bison",
+      "imgSrc": "/portraits/sf6/mbison.png"
+    },
+    {
+      "name": "Rashid",
+      "imgSrc": "/portraits/sf6/rashid.png"
+    },
+    {
+      "name": "Ryu",
+      "imgSrc": "/portraits/sf6/ryu.png"
+    },
+    {
+      "name": "Sagat",
+      "imgSrc": "/portraits/sf6/sagat.png"
+    },
+    {
+      "name": "Terry",
+      "imgSrc": "/portraits/sf6/terry.png"
+    },
+    {
+      "name": "Zangief",
+      "imgSrc": "/portraits/sf6/zangief.png"
+    }
+  ]
+}
